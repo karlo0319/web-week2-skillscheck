@@ -50,7 +50,7 @@ function checkGroceryCount(){
         } else if (groceries[i].length == 1){
             return "1 item";
         } else if (groceries[i].length > 1 && groceries[i].length < 5){
-            return `${groceries[i].length} items`;
+            return `${groceries[i].length-1} items`;
         }
     }
 }
